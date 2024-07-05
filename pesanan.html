@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWEB439</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="pesanan.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+        <ul class="logostore">
+            <li><img src="skincarelogo.png"></li>
+        </ul>
+        <a href="#" class="logo">PWEB.439</a>
+        <ul class="navlist">
+                <li><a href="index.html" class="tbl-biru">Home</a></li>
+                <li><a href="pesanan.html" class="tbl-biru">Pesanan</a></li>
+                <li><a href="katalog.html" class="tbl-biru">Katalog</a></li>
+        </ul>
+</header>
+<!--     <section class="home">
+        <div class="home-text">
+            <h6>Kode Soal [i]</h6>
+            <h1>Responsi Pemrograman Web</h1>
+            <p>2300018439</p>
+            <a href="#" class="btn">
+                Shop Now
+            </a>
+        </div>      
+    </section> -->
+        <section id="kalkulator">
+            <h1>PESANAN</h1>
+             <div class="container-kl">
+                <div class="select-container">
+                   <label for="match">Product:</label>
+                        <div class="select-container">
+                            <select class="select-box">
+                                <option value="p1">Energizer Vacial Wash</option>
+                                <option value="p2">Produk2</option>
+                                <option value="p3">Produk3</option>
+                            </select>                   
+                        </div>
+                </div>
+                <div>
+                  <label for="wr">Jumlah Product:</label>
+                  <input type="number" id="wr" placeholder="Cth: 1-100pcs">
+                </div>
+                <div>
+                  <label for="target">Berapa WR yang anda inginkan?</label>
+                  <input type="number" id="target" placeholder="Cth: 1-100pcs">
+                </div>
+                <button onclick="calculateWR()">Hitung</button>
+                <br>
+                <div>
+                    <p> </p>
+                    <br>
+                    <p id="result"></p>
+                </div>
+              </div>
+        </section> 
+        <footer>
+            <div class="footer">
+                <p> ©2024 RESPONSIPWEB | 439</p>
+            </div>
+        </footer>
+</body>
+</html>
